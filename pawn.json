@@ -1,0 +1,28 @@
+{
+	"user": "emmett-white",
+	"repo": "Conquest-DM",
+	"entry": "gamemodes\\conquest-dm.pwn",
+	"output": "gamemodes\\conquest-dm.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"Southclaws/samp-logger",
+		"pawn-lang/YSI-Includes",
+		"samp-incognito/samp-streamer-plugin",
+		"zeex/samp-plugin-crashdetect",
+		"maddinat0r/sscanf",
+		"IllidanS4/PawnPlus",
+		"IllidanS4/YSF",
+		"AGraber/pawn-plus-mysql",
+		"Open-GTO/protection",
+		"Open-GTO/weaponskill",
+		"Open-GTO/getspawninfo",
+		"emmet-jones/New-SA-MP-callbacks",
+		"Zeex/samp-plugin-profiler",
+		"pBlueG/SA-MP-MySQL",
+		"dakyskye/pawn-env",
+		"emmett-white/shooting-textdraw"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}
