@@ -1,6 +1,10 @@
 # samp-conquest-dm
 An deathmatch/freeroam gamemode for SA-MP..
 
-## Install (via sampctl)
+## Installation
 
-> sampctl package install emmett-white/samp-conquest-dm
+Simply install to your project:
+
+```bash
+sampctl package install emmett-white/samp-conquest-dm
+```
