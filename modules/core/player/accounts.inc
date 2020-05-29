@@ -40,7 +40,7 @@
 
 new
     Player_ID[MAX_PLAYERS],
-    Player_Password[MAX_PLAYERS][MAX_PASSWORD_LENGTH],
+    Player_Password[MAX_PLAYERS][256],
     Player_Login_Attempts[MAX_PLAYERS],
 
     // Character
@@ -126,7 +126,10 @@ static Player_Check_Account(const playerid)
     if (cache_num_rows()) {
         // Account
         cache_get_value_name_int(0, "account_id", Player_ID[playerid]);
-        cache_get_value_name(0, "account_password", Player_Password[playerid]);
+        cache_get_value_name(0, "account_password", Player_Password[playerid], 256);
+
+        printf("%s", Player_Password[playerid]);
+        printf("%d", Player_ID[playerid]);
 
         // Character
         task_await(
