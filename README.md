@@ -1,2 +1,2 @@
 # samp-conquest-dm
-An deathmatch/freeroam gamemode for SA-MP..
+An deathmatch/freeroam gamemode for SA-MP... 
