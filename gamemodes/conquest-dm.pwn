@@ -36,6 +36,8 @@
 #include <a_mysql>
 #include <env>
 
+#include <bcrypt>
+
 #include <streamer>
 
 #define YSI_NO_HEAP_MALLOC
@@ -105,7 +107,8 @@
 /// -
 
 #include "../modules/core/admin/core.inc"
-#include "../modules/core/admin/commands.inc"
+#include "../modules/core/admin/cmd-levels.inc"        
+#include "../modules/core/admin/ban.inc"
 
 /// -
 /// World
@@ -113,4 +116,7 @@
 
 #include "../modules/world/maps.inc"
 
-main() {}
+main()
+{
+    assert (MAX_PLAYERS == GetMaxPlayers());
+}
