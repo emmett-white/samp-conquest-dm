@@ -5,7 +5,7 @@
 	"entry": "gamemodes\\conquest-dm.pwn",
 	"output": "gamemodes\\conquest-dm.amx",
 	"dependencies": [
-		"sampctl/samp-stdlib"
+		"sampctl/samp-stdlib",
 		"Southclaws/samp-logger",
 		"pawn-lang/YSI-Includes",
 		"samp-incognito/samp-streamer-plugin",
