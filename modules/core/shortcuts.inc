@@ -59,10 +59,6 @@
 #define HelpMsg(%0,%1) \
   	SendClientMessage(%0, X11_GRAY, "USAGE: "%1)
 
-#define ERR_MSG_AUTHORIZATION "You aren't authorized to use this command!"
-#define ERR_MSG_ADUTY_REQUIRED "You must be on duty!"
-#define ERR_MSG_INVALID_PLAYER_ID "Invalid player ID!"
-
 /// -
 /// Keys
 /// -
