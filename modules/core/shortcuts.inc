@@ -39,9 +39,9 @@
 /// Dialog
 /// -
 
-#define D_TITLE     ""SERVER"CONQUEST - "WHITE"ROLEPLAY"
-#define D_CONFIRM 	""SERVER">"
-#define D_CANCEL 	"CANCEL"
+#define D_TITLE     ""SERVER"CONQUEST - "WHITE"DEATHMATCH"
+#define D_CONFIRM 	""SERVER"Submit"
+#define D_CANCEL 	""INDIAN_RED_3"Cancel"
 
 /// -
 /// Messages
@@ -58,6 +58,10 @@
 
 #define HelpMsg(%0,%1) \
   	SendClientMessage(%0, X11_GRAY, "USAGE: "%1)
+
+#define ERR_MSG_AUTHORIZATION "You aren't authorized to use this command!"
+#define ERR_MSG_ADUTY_REQUIRED "You must be on duty!"
+#define ERR_MSG_INVALID_PLAYER_ID "Invalid player ID!"
 
 /// -
 /// Keys
