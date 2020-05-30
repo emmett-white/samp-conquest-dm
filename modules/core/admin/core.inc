@@ -10,18 +10,20 @@
         - Owner and Developer of this community is Emmett
 
     @ Credits:
-        - Y-Less - YSI-Includes...
-        - Incognito - Streamer
-        - JustMichael - Discord help..
-        - maddinat0r - MySQL
-        - urShadow - PawnPlus | PawnPlus-MySQL | Pawn.RegEx
-        - ziggi - Protection
-        - Southclaws - sa-mp logger
-        - Awesomedude - easyDialog
-        - Emmet_ - New SA-MP callbacks
-        - oscar-broman - weapon-config | SKY
-        - kurta999's & IllidanS4 - YSF
-        - dakyskye - Pawn ENV
+        * Y-Less - YSI-Includes...
+        * Incognito - Streamer
+        * JustMichael - Discord help..
+        * maddinat0r - MySQL
+        * IllidanS4 - PawnPlus
+        * AGraber - pawn-plus-mysql
+        * urShadow - Pawn.RegEx
+        * ziggi - Protection
+        * Southclaws - sa-mp logger
+        * Awesomedude - easyDialog
+        * Emmet_ - New SA-MP callbacks
+        * oscar-broman - weapon-config | SKY
+        * kurta999's & IllidanS4 - YSF
+        * dakyskye - Pawn ENV
 **/
 
 #define MAX_ADMIN_LEVELS        (4)
