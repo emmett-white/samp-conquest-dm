@@ -23,7 +23,7 @@
         * Emmet_ - New SA-MP callbacks
         * oscar-broman - weapon-config | SKY
         * kurta999's & IllidanS4 - YSF
-        * dakyskye - Pawn ENV
+        * dakyskye - Pawn ENV 
 **/
 ACMD:[1]kick(playerid, const params[])
 {
